@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/vidhance_calibration_64m:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_64m \
     vendor/xiaomi/sweet/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/sweet/proprietary/vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml \
+    vendor/xiaomi/sweet/proprietary/vendor/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/sweet/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/sweet/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \

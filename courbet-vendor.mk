@@ -214,6 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/courbet/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/xiaomi/courbet/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/xiaomi/courbet/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/courbet/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/xiaomi/courbet/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/courbet/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
@@ -413,6 +414,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/courbet/proprietary/vendor/etc/thermal-youtube.confs:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.confs \
     vendor/xiaomi/courbet/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/courbet/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/courbet/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/courbet/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/xiaomi/courbet/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
@@ -1054,6 +1056,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
+    vendor/xiaomi/courbet/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \

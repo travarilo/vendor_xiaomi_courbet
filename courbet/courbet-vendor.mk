@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/courbet
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/courbet/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service \
+    vendor/xiaomi/courbet/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
+    vendor/xiaomi/courbet/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
     vendor/xiaomi/courbet/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/courbet/proprietary/vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Codec_cal.acdb \
     vendor/xiaomi/courbet/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -354,6 +357,11 @@ PRODUCT_PACKAGES += \
     libssccalapi \
     libswvdec \
     libsymphony-cpu \
+    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
+    libnanopb \
+    libsns_registry_skel \
+    vendor.xiaomi.hardware.citsensorservice@1.0 \
+    vendor.xiaomi.hardware.citsensorservice@1.1 \
     libthermalclient \
     libtinyxml2_1 \
     libtriplecam_video_optical_zoom \
